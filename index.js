@@ -7,6 +7,7 @@ console.log(3);
 // console.log(4);
 // const fetch = require("isomorphic-fetch");
 const backlogjs = require("backlog-js");
+console.log(4);
 
 const backlogFetch = () => {
   const host = "https://mitsutone.backlog.com/projects/MITSUTONE_FRONT";
