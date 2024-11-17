@@ -14,6 +14,7 @@ jobs:
         id: hello
         env:
           BACKLOG_API_KEY: ${{ secrets.BACKLOG_API_KEY }}
+          REPOSITORY_VAR: ${{ vars.REPOSITORY_VAR }}
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
