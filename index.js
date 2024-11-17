@@ -23,7 +23,7 @@ const backlogFetch = () => {
       console.log("space:", data);
     })
     .catch((err) => {
-      console.log("error:", err.message);
+      console.log("error:", JSON.stringify(err, null, 2));
     });
 };
 // try {
