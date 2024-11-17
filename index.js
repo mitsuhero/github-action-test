@@ -12,7 +12,7 @@ console.log(5);
 
 
 const backlogFetch = () => {
-  const host = "https://mitsutone.backlog.com/projects/MITSUTONE_FRONT";
+  const host = "mitsutone.backlog.com";
   const apiKey = process.env.BACKLOG_API_KEY;
   // Use API Key
   const backlog = new backlogjs.Backlog({ host, apiKey });
