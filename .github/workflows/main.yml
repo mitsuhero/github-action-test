@@ -12,6 +12,8 @@ jobs:
       - name: Hello world action step
         uses: ./dist # Uses an action in the root directory
         id: hello
+        env:
+          BACKLOG_API_KEY: ${{ secrets.BACKLOG_API_KEY }}
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step

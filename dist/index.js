@@ -31824,7 +31824,6 @@ try {
   // const payload = JSON.stringify(github.context.payload, undefined, 2)
   // console.log(`The event payload: ${payload}`);
   console.log("process.env:"+ JSON.stringify(process.env, null, 2))
-  console.log("secrets:"+ JSON.stringify(secrets, null, 2))
 
 } catch (error) {
   core.setFailed(error.message);
